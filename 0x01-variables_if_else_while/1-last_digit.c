@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <sttdio.h>
-
+#include <stdio.h>
 /**
  * main - print the last digit of the number stored in the variable n
  *
@@ -17,7 +16,8 @@ int main(void)
 	x = n % 10;
 	printf("last digit of %d is %d", n, x);
 	if (x > 5)
-	{	printf("and is greater than 5");
+	{
+		printf("and is greater than 5");
 	}
 	if (x == 0)
 	{
