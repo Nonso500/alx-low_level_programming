@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the lowercase alphabet in reverse.
- *
+ * By nonso
  * Return: Always 0.
  */
 int main(void)
