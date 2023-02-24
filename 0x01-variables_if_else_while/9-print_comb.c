@@ -2,6 +2,7 @@
 
 /**
  * main - prints all possible combinations of single-digit numbers
+ * By nonso 
  * Return: Always 0 (Success)
  */
 int main(void)
