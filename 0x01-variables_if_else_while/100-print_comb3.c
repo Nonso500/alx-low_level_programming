@@ -2,6 +2,7 @@
 
 /**
  * main - prints all possible different combinations of two digits
+ * By nonso 
  * Return: ALways 0 (Success)
  */
 int main(void)
