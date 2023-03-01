@@ -11,12 +11,12 @@
 
 void print_array(int *a, int n)
 {
-int i;
-for (i = 0; i < (n - 1); i++)
+int b;
+for (b = 0; b < (n - 1); b++)
 {
-printf("%d, ", a[i]);
+printf("%d, ", a[b]);
 }
-if (i == (n - 1))
+if (b == (n - 1))
 {
 printf("%d", a[n - 1]);
 }
