@@ -16,8 +16,9 @@ int _strcmp(char *s1, char *s2)
 	{
 		i++;
 		continue;
-	}
+	
 	else
-		break;
+	{
+		return 
 	return (0);
 }
