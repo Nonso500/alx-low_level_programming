@@ -7,27 +7,26 @@
  *
  * @accept: which consist only of bytes from
  *
- * Return: the number of bytes
+ * Return: number
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	int i;
-	int j;
-	int z = 0;
+	int z = 0, x, y;
 
-	for (i = 0; i < s[i] != '\0'; i++)
+	for (x = 0; s[x] != '\0'; x++)
 	{
-		for (j = 0; j < accept[j] != '\0'; j++)
+		if (s[x] != 32)
 		{
-			if (s[i] == accept[j])
+			for (y = 0; accept[y] != '\0'; y++)
 			{
-				z++;
-				break;
+				if (s[x] == accept[y])
+					z++;
 			}
 		}
-		if (accept[j] == '\0')
-		{
+		else
 			return (z);
-		}
 	}
+		return (z);
+
 }
