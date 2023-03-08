@@ -6,20 +6,19 @@
  */
 int factorial(int n)
 {
+	int i;
 
-	if (n <= 0)
+	if (n == 0)
+	{
+		return (1);
+	}
+	else if (n < 0)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (1);
+		i = n * factorial(n - 1);
 	}
-	int main(void)
-	{
-		int n;
-
-		 n = 1;
-		_putchar(n);
-	}
+	return (i);
 }
