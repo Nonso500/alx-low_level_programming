@@ -1,11 +1,15 @@
 #include <stdio.h>
-/*
- * main - Entry
+/**
+ * main- Prints, "Programming is like building a multilingual puzzle"
+ * @puts(): Print a string of text using puts
  *
- * Return: Always 0 (success)
+ * Description:Use the function puts to print a string of text
+ * Return: a nonnegative number on success
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
-	return (0);
+
+
+return (0);
 }
